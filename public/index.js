@@ -26,7 +26,7 @@ window.addEventListener('DOMContentLoaded', () => {
 	hide(document.getElementById('result-container'));
 	// hide(document.getElementById('pagination'));
 	hide(document.getElementById('score-panel'));
-	api_url = 'http://127.0.0.1:3000/api/v1/';
+	api_url = 'https://limitless-tundra-54374.herokuapp.com/api/v1/';
 
 	fetch(`${api_url}questions`)
 		.then((resp) => resp.json())
