@@ -271,7 +271,7 @@ window.addEventListener('DOMContentLoaded', () => {
 						img.classList.toggle('jackInTheBox')
 
 					}
-					if (c[i].getAttribute('data-isCorrect') === 'false' && c[i] != ele) {
+					if (c[i].getAttribute('data-isCorrect') === 0 && c[i] != ele) {
 						const buttonClasses = ['ui', 'grey', 'basic', 'button'];
 						c[i].classList.add(...buttonClasses)
 						img.classList.toggle('wobble-hor-bottom');
