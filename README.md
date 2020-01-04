@@ -53,7 +53,7 @@ Start the server and load the site on localhost:3000:
 ## Credits
 
 
-The humble developers in training that built this are:
+The humble developers who built this app:
 
 
 **Rachel Fuerst** [LinkedIn](https://www.linkedin.com/in/rachfuerst) // [Github](https://github.com/crayray)
